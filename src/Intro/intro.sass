@@ -1,0 +1,106 @@
+@import "../mixins"
+
+.div-intro
+    height: 480px
+    margin-top: 30px
+    display: flex
+    background-color: hsl(216, 30%, 25%)
+
+
+.intro
+    @include flex()
+    flex-wrap: wrap-reverse
+    text-align: center
+
+    .intro__span
+        width: 100%
+        color: hsl(210, 15%, 95%)
+        line-height: 30px
+        font-size: 24px
+        padding-top: 20px
+    
+
+        .intro__span__large
+            font-size: 32px
+        
+
+        .intro__span__fullstack
+            display: none
+    
+
+        button
+            display: none
+        
+
+    .intro__image
+        width: 100%
+        max-width: 250px
+        height: 320px
+        margin-top: 30px
+        border-top-left-radius: 50px
+        border-bottom-right-radius: 50px
+        background-image: url("../images/my-picture.jpg")
+        background-size: cover
+        background-position: center
+        background-repeat: no-repeat
+        background-color: rgba(0,0,0,0.1)
+        background-blend-mode: multiply
+
+@media ( min-width: 570px)
+    
+    .intro
+        text-align: unset
+        justify-content: space-evenly
+        padding-top: 20px
+
+        .intro__span
+            padding-top: unset
+            flex-basis: 45%
+
+            .intro__span__large
+                font-size: 48px
+
+            .intro__span__fullstack
+                display: inline
+            
+
+            .button
+                display: block
+                width: 150px
+                height: 40px
+                margin-top: 30px
+                background-color: hsl(183, 91%, 29%)
+                color: rgb(240, 242, 244)
+                font-size: 16px
+                border: none
+                outline: none
+                &:hover
+                    background-color: hsl(183, 91%, 39%)
+                    transition: background-color 0.2s ease-out 
+                &:active
+                    outline: none
+                    background-color: hsl(183, 91%, 29%)
+
+
+@media ( min-width: 1024px)
+
+    .intro
+        
+        .intro__span
+            font-size: 32px
+            line-height: 40px
+        
+
+            .intro__span__large
+                font-size: 64px
+            
+
+            button
+                width: 250px
+                height: 50px
+                font-size: 18px
+            
+
+        .intro__image
+            height: 350px
+    
