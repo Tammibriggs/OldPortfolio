@@ -54,29 +54,31 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.1);
-  background-blend-mode: multiply;
 }
 
 @media (min-width: 570px) {
-  .intro {
+  .div-intro {
+    height: 450px;
+  }
+  .div-intro .intro {
     text-align: unset;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     padding-top: 20px;
   }
-  .intro .intro__span {
+  .div-intro .intro .intro__span {
     padding-top: unset;
     -ms-flex-preferred-size: 45%;
         flex-basis: 45%;
   }
-  .intro .intro__span .intro__span__large {
+  .div-intro .intro .intro__span .intro__span__large {
     font-size: 48px;
   }
-  .intro .intro__span .intro__span__fullstack {
+  .div-intro .intro .intro__span .intro__span__fullstack {
     display: inline;
   }
-  .intro .intro__span .button {
+  .div-intro .intro .intro__span .button {
     display: block;
     width: 150px;
     height: 40px;
@@ -87,12 +89,12 @@
     border: none;
     outline: none;
   }
-  .intro .intro__span .button:hover {
+  .div-intro .intro .intro__span .button:hover {
     background-color: #09b5be;
     -webkit-transition: background-color 0.2s ease-out;
     transition: background-color 0.2s ease-out;
   }
-  .intro .intro__span .button:active {
+  .div-intro .intro .intro__span .button:active {
     outline: none;
     background-color: #07878d;
   }

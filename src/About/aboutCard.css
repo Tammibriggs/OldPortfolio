@@ -1,0 +1,63 @@
+.section {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin: 20px auto;
+  background-color: #f0f2f4;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 8px 15px #202429;
+          box-shadow: 0 8px 15px #202429;
+}
+
+.section h2 {
+  width: 90%;
+  max-width: 240px;
+  font-size: 24px;
+  color: #202429;
+  padding-bottom: 10px;
+}
+
+.section span {
+  width: 90%;
+  max-width: 240px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #484f56;
+  line-height: 22px;
+}
+
+.section span ul {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.section span ul li {
+  text-align: left;
+  line-height: 25px;
+}
+
+@media (min-width: 570px) {
+  .section {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+  }
+}
+/*# sourceMappingURL=aboutCard.css.map */

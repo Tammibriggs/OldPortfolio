@@ -44,48 +44,49 @@
         background-position: center
         background-repeat: no-repeat
         background-color: rgba(0,0,0,0.1)
-        background-blend-mode: multiply
 
 @media ( min-width: 570px)
+    .div-intro
+        height: 450px
     
-    .intro
-        text-align: unset
-        justify-content: space-evenly
-        padding-top: 20px
+        .intro
+            text-align: unset
+            justify-content: space-evenly
+            padding-top: 20px
 
-        .intro__span
-            padding-top: unset
-            flex-basis: 45%
+            .intro__span
+                padding-top: unset
+                flex-basis: 45%
 
-            .intro__span__large
-                font-size: 48px
-
-            .intro__span__fullstack
-                display: inline
+                .intro__span__large
             
+                    font-size: 48px
 
-            .button
-                display: block
-                width: 150px
-                height: 40px
-                margin-top: 30px
-                background-color: hsl(183, 91%, 29%)
-                color: rgb(240, 242, 244)
-                font-size: 16px
-                border: none
-                outline: none
-                &:hover
-                    background-color: hsl(183, 91%, 39%)
-                    transition: background-color 0.2s ease-out 
-                &:active
-                    outline: none
+                .intro__span__fullstack
+                    display: inline
+                
+
+                .button
+                    display: block
+                    width: 150px
+                    height: 40px
+                    margin-top: 30px
                     background-color: hsl(183, 91%, 29%)
+                    color: rgb(240, 242, 244)
+                    font-size: 16px
+                    border: none
+                    outline: none
+                    &:hover
+                        background-color: hsl(183, 91%, 39%)
+                        transition: background-color 0.2s ease-out 
+                    &:active
+                        outline: none
+                        background-color: hsl(183, 91%, 29%)
 
 
 @media ( min-width: 1024px)
 
     .intro
-        
         .intro__span
             font-size: 32px
             line-height: 40px
