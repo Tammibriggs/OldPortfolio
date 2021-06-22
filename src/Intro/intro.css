@@ -78,7 +78,7 @@
   .div-intro .intro .intro__span .intro__span__fullstack {
     display: inline;
   }
-  .div-intro .intro .intro__span .button {
+  .div-intro .intro .intro__span button {
     display: block;
     width: 150px;
     height: 40px;
@@ -89,12 +89,12 @@
     border: none;
     outline: none;
   }
-  .div-intro .intro .intro__span .button:hover {
+  .div-intro .intro .intro__span button:hover {
     background-color: #09b5be;
     -webkit-transition: background-color 0.2s ease-out;
     transition: background-color 0.2s ease-out;
   }
-  .div-intro .intro .intro__span .button:active {
+  .div-intro .intro .intro__span button:active {
     outline: none;
     background-color: #07878d;
   }
