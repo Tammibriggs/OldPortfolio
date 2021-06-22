@@ -23,7 +23,7 @@ class About extends Component{
                 <div className="more-about">
                     <h1>MORE ABOUT ME</h1>
                     <p className="short-description">
-                        Being a great Developer is one of my Goals. I am very passionate about learning new technologies that would improve my development skills,
+                        Being a great Developer is one of my goals. I am very passionate about learning new technologies that would improve my development skills,
                         not only learning but also using them to build useful and well-designed web applications.
                     </p>
                     <div className="more-about-section">
@@ -32,10 +32,10 @@ class About extends Component{
                             icon={items.icon} 
                             heading={items.heading} 
                             description={items.description} 
+                            key={items.id}
                             list1={items.list1} 
                             list2={items.list2} 
                             list3={items.list3}
-                            key={items.id}
                             />)
                         })}
                     </div>

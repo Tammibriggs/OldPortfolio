@@ -1,0 +1,79 @@
+.work
+    max-width: 320px
+    &:hover
+        box-shadow:v0 8px 15px rgb(32 36 41)
+        background-color: hsl(216, 30%, 25%)
+
+    .work__data
+        width: 90%
+        max-width: 300px
+        margin: 20px auto
+        text-align: left
+
+    h4
+        color: hsla(0, 0%, 100%, 0.9)
+        padding-top: 20px
+        font-size: 18px
+        padding-bottom: 20px
+    
+
+    .work__data__images
+        img
+            width: 100%
+            height: 200px
+            right: 20px
+            &:nth-child(1)
+                box-shadow: 0px 4px 8px hsl(210, 15%, 10%)
+            &:nth-child(2)
+                position: absolute
+                width: 100px
+                margin-top: 20px
+                box-shadow: 0px 4px 8px hsl(210, 15%, 10%)
+
+    .work__data__text
+        font-size: 18px
+        line-height: 20px
+        margin-left: auto
+        margin-right: auto
+
+        p
+            color: hsla(0, 0%, 100%, 0.6)
+            font-size: 16px
+
+        .work__data__text__language
+            margin-top: 20px
+            margin-bottom: 30px
+        
+
+            h5
+                font-size: 18px
+                padding-bottom: 5px
+                font-weight: 500
+                color: hsla(0, 0%, 100%, 0.8)
+            
+
+            span
+                font-size: 16px
+                color: hsla(0, 0%, 100%, 0.6)
+                font-weight: 400
+                margin-right: 10px
+                background-color: inherit
+            
+
+                img
+                    width: 30px
+                    height: 30px
+                    vertical-align: middle
+                    
+
+    .work__data__link
+        font-size: 16px
+        padding: 0.6em 1.5em
+        background-color: hsl(183, 91%, 29%)
+        color: hsl(210, 15%, 95%)
+        border-radius: 10px
+        &:hover
+            background-color: hsl(183, 91%, 39%)
+            transition: background-color 0.2s ease-out
+        &:active
+            background-color: hsl(183, 91%, 29%)

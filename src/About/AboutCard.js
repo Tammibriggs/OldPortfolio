@@ -3,7 +3,7 @@ import "./aboutCard.css"
 
 function AboutCard({icon, heading, description, list1, list2, list3, key}){
     return(
-    <div className="section design" key={key}>
+    <div className="section section--design" key={key}>
         <img src={icon} alt="icon"/>
         <h2>{heading}</h2>
         <span>

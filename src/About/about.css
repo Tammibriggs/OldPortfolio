@@ -46,4 +46,10 @@
     margin-top: 30px;
   }
 }
+
+@media (min-width: 768px) {
+  .about-me {
+    margin-top: 90px;
+  }
+}
 /*# sourceMappingURL=about.css.map */

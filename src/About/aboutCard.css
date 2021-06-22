@@ -60,4 +60,16 @@
         flex-basis: 45%;
   }
 }
+
+@media (min-width: 768px) {
+  .section {
+    -ms-flex-preferred-size: 33%;
+        flex-basis: 33%;
+  }
+  .section--design {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*# sourceMappingURL=aboutCard.css.map */
