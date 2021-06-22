@@ -1,0 +1,85 @@
+footer {
+  width: 100%;
+  height: 300px;
+  margin-top: 90px;
+  background-color: #2d3c53;
+  color: #f0f2f4;
+}
+
+footer .contactMe {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .contactMe h2 {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+footer .contactMe img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+footer .contactMe div {
+  line-height: 30px;
+}
+
+footer .contactMe span {
+  margin-left: 5px;
+}
+
+footer .contactMe__phoneline {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer .contactMe__email a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: underline;
+}
+
+footer .contactMe__social img {
+  width: 30px;
+  height: 30px;
+}
+
+footer .contactMe__social img:hover {
+  border: 1px solid #09b5be;
+  border-radius: 10px;
+}
+
+footer .contactMe__social img:active {
+  border: unset;
+}
+
+@media (min-width: 570px) {
+  footer {
+    margin-top: 120px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
