@@ -18,10 +18,9 @@ const aboutData = [
     {
         icon : backendIcon,
         heading : "Backend",
-        description : "Do you want to get that site done in no time?, do want it to be secure?, "+
-        "using a backend tool like django i can make that site a reality",
+        description : "Using a backend Python Framework like Django (a framework for perfectionists with deadline) "+
+        "to create secure and scalable applications.",
         list1 : "",
-
         list2 : "",
         list13 :"",
         id : 2
