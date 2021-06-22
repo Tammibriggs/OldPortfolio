@@ -6,8 +6,8 @@ const aboutData = [
     {
         icon : frontendIcon,
         heading : "Frontend",
-        description : "Applying modern web, tools, technologies like\
-                        Html5, Css3, and ReactJs and others, to construct eye-catching web fronts.",
+        description : "Applying modern web, tools, technologies like " +
+                        "Html5, Css3, and ReactJs and others, to construct eye-catching web fronts.",
         list1 : "",
         list2 : "",
         list13 :"",
@@ -18,8 +18,8 @@ const aboutData = [
     {
         icon : backendIcon,
         heading : "Backend",
-        description : "Do you want to get that site done in no time?, do want it to be secure?,\
-        using a backend tool like django i can make that site a reality",
+        description : "Do you want to get that site done in no time?, do want it to be secure?, "+
+        "using a backend tool like django i can make that site a reality",
         list1 : "",
 
         list2 : "",

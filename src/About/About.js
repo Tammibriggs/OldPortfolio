@@ -27,7 +27,7 @@ class About extends Component{
                         not only learning but also using them to build useful and well-designed web applications.
                     </p>
                     <div className="more-about-section">
-                        {aboutData.map(items => {
+                        {aboutData.map((items) => {
                             return (<AboutCard 
                             icon={items.icon} 
                             heading={items.heading} 

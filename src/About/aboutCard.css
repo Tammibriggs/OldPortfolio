@@ -1,5 +1,6 @@
 .section {
   height: 300px;
+  max-width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,7 +29,7 @@
 
 .section span {
   width: 90%;
-  max-width: 240px;
+  max-width: 250px;
   font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;

@@ -16,7 +16,7 @@ function Footer(){
                     </div>
 
                      <div className="contactMe__social">
-                        <a href="#"  target="_blank"><img src={twitterIcon} alt="twitter icon"/></a>
+                        <a href="https://twitter.com/Tammibr25891504" target="_blank" rel="noopener noreferrer"><img src={twitterIcon} alt="twitter icon"/></a>
                     </div>                    
                     
                 </div>

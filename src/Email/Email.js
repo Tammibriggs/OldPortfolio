@@ -5,13 +5,13 @@ import emailIcon from "../images/email-icon.svg"
 function Email(){
     return(
         <div className="wrapper">
-            <div class="send-email">
-                <div class="email-heading mail">
-                    <img src={emailIcon} class="email-icon"/>
+            <div className="send-email">
+                <div className="email-heading mail">
+                    <img src={emailIcon} className="email-icon" alt="email icon"/>
                     <h2>drop an email</h2>
                 </div>
 
-                <div class="email-feilds mail">
+                <div className="email-feilds mail">
                     <form action="#" method="POST" data-netlify="true" name="Portfolio_contact_form">
                         <input type="text" placeholder="Name" name="name"/>
                         <input type="email" placeholder="Your email" name="email"/>
