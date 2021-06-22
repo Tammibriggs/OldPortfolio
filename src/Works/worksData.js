@@ -39,7 +39,7 @@ const workObject = [
         imageLarge: largeRoboF,
         imageSmall : smallRoboF,
         name : "Robot Friends",
-        text : "A app that fetches data from an Api and can also filter fetched data",
+        text : "React app that fetches data from an external API",
         languageImage1 : reactLogo,
         languageName1 : "React",
         languageImage2 : "",
