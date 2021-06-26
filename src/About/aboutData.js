@@ -6,8 +6,8 @@ const aboutData = [
     {
         icon : frontendIcon,
         heading : "Frontend",
-        description : "Applying modern web, tools, technologies like " +
-                        "Html5, Css3, and ReactJs and others, to construct eye-catching web fronts.",
+        description : "Using modern web tools and technologies like " +
+                        "Html5, Css3, ReactJs, and others to construct eye-catching web fronts.",
         list1 : "",
         list2 : "",
         list13 :"",
