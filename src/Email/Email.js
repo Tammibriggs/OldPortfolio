@@ -12,7 +12,8 @@ function Email(){
                 </div>
 
                 <div className="email-feilds mail">
-                    <form action="#" method="POST" data-netlify="true" name="Portfolio_contact_form">
+                    <form method="POST" name="Portfolio_contact_form">
+                        <input type="hidden" name="Portfolio_contact_form" value="contact_form"/>
                         <input type="text" placeholder="Name" name="name"/>
                         <input type="email" placeholder="Your email" name="email"/>
                         <textarea placeholder="Message" name="message"></textarea>
