@@ -13,7 +13,7 @@ function Email(){
 
                 <div className="email-feilds mail">
                     <form method="POST" name="Portfolio_contact_form">
-                        <input type="hidden" name="Portfolio_contact_form" value="contact_form"/>
+                        <input type="hidden" name="form-name" value="contact_form"/>
                         <input type="text" placeholder="Name" name="name"/>
                         <input type="email" placeholder="Your email" name="email"/>
                         <textarea placeholder="Message" name="message"></textarea>
