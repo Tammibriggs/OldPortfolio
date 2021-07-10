@@ -1,5 +1,5 @@
 import "./footer.css"
-import twitterIcon from "../images/twitter.svg"
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 function Footer(){
     return(
@@ -16,7 +16,9 @@ function Footer(){
                     </div>
 
                      <div className="contactMe__social">
-                        <a href="https://twitter.com/Tammibr25891504" target="_blank" rel="noopener noreferrer"><img src={twitterIcon} alt="twitter icon"/></a>
+                        <a href="https://www.linkedin.com/in/taminoturoko-briggs-b98251203/" target="_blank" rel="noopener noreferrer">
+                            <LinkedInIcon/>
+                        </a>
                     </div>                    
                     
                 </div>

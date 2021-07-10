@@ -63,17 +63,19 @@ footer .contactMe__email a {
   text-decoration: underline;
 }
 
-footer .contactMe__social img {
+footer .contactMe__social .MuiSvgIcon-root {
+  fill: #09b5be;
+  margin-top: 5px;
   width: 30px;
   height: 30px;
 }
 
-footer .contactMe__social img:hover {
+footer .contactMe__social .MuiSvgIcon-root:hover {
   border: 1px solid #09b5be;
   border-radius: 10px;
 }
 
-footer .contactMe__social img:active {
+footer .contactMe__social .MuiSvgIcon-root:active {
   border: unset;
 }
 

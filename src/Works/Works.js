@@ -19,7 +19,7 @@ class Works extends Component{
         return(
             <div className="wrapper">
                  <div className="div-works">
-                    <span id="recent">Recent works</span>
+                    <span>RECENT WORKS</span>
                     <div className="line"></div>
                     <div className="works">
                     {worksData.map((item) => {

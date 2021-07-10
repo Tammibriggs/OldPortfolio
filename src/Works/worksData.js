@@ -1,9 +1,8 @@
 import largeGithubImage from "../images/gitHub-repoLarge.png"
 import smallGitHubImage from "../images/gitHub-repoSmall.png"
 import javascriptLogo from "../images/javascript-logo.svg"
-import largeBlogImage from "../images/projectImage-large.png"
-import smallBlogImage from "../images/projectImage-small.png"
-import djangoLogo from "../images/django.png"
+import largeSaiownImage from "../images/saiown.png"
+import smallSaiownImage from "../images/saiown-small.png"
 import largeRoboF from "../images/RobotFriends-Large.png"
 import smallRoboF from "../images/RobotFriends-small.png"
 import reactLogo from "../images/react.png"
@@ -13,7 +12,7 @@ const workObject = [
         imageLarge: largeGithubImage,
         imageSmall : smallGitHubImage,
         name : "Github Repo Page",
-        text : "Github repository clone built  with Github Graphql api",
+        text : "Github repository clone built  with Github Graphql API.",
         languageImage1 : javascriptLogo,
         languageName1 : "Javascript",
         languageImage2 : "",
@@ -23,15 +22,15 @@ const workObject = [
     },
 
     {
-        imageLarge: largeBlogImage,
-        imageSmall : smallBlogImage,
-        name : "Devlo",
-        text : "Blog built with Django a Python framework",
-        languageImage1 : djangoLogo,
-        languageName1 : "Django",
+        imageLarge: largeSaiownImage,
+        imageSmall : smallSaiownImage,
+        name : "Saiown",
+        text : "React app that fetches news from Hacker News API.",
+        languageImage1 : reactLogo,
+        languageName1 : "React",
         languageImage2 : "",
         languageName2 : "",
-        link : "http://tammibriggs-blog.herokuapp.com/",
+        link : "https://hacker-newsapp.netlify.app/",
         id: 2
     },
 
