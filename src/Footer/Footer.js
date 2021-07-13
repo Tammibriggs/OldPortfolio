@@ -1,4 +1,4 @@
-import "./footer.css"
+import "./footer.css";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 function Footer(){
@@ -12,10 +12,12 @@ function Footer(){
                     </div>
                     
                     <div className="contactMe__email">
-                        <span><a href="mailto:Godsfirstbriggs@gmail.com">Godsfirstbriggs@gmail.com</a></span>
+                        <span>
+                            <a href="mailto:Godsfirstbriggs@gmail.com">Godsfirstbriggs@gmail.com</a>
+                        </span>
                     </div>
 
-                     <div className="contactMe__social">
+                    <div className="contactMe__social">
                         <a href="https://www.linkedin.com/in/taminoturoko-briggs-b98251203/" target="_blank" rel="noopener noreferrer">
                             <LinkedInIcon/>
                         </a>

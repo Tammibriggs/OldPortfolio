@@ -6,14 +6,14 @@ import WorksCard from "./WorksCard"
 class Works extends Component{
 
     componentDidMount() {
-        const workImage2 = document.getElementsByClassName("work__image2")
-       
+        const workImage2 = document.getElementsByClassName("work__image2")       
+
         for(const i of workImage2){
             if(i.getAttribute("src") === ""){
                 i.style.display = "none"
             }
         }
-        }
+    }
 
     render(){
         return(
