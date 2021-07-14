@@ -25,7 +25,7 @@ const workObject = [
         imageLarge: largeSaiownImage,
         imageSmall : smallSaiownImage,
         name : "Saiown",
-        text : "React app that fetches news from Hacker News API.",
+        text : "React app that fetches news data from Hacker News API.",
         languageImage1 : reactLogo,
         languageName1 : "React",
         languageImage2 : "",

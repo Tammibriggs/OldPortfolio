@@ -18,7 +18,7 @@ class Works extends Component{
     render(){
         return(
             <div className="wrapper">
-                 <div className="div-works">
+                 <div className="div-works" id="recent">
                     <span>RECENT WORKS</span>
                     <div className="line"></div>
                     <div className="works">
